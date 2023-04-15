@@ -29,7 +29,6 @@ const NewsCard = (props) => {
                 )}
             </View>
         </TouchableOpacity>
-
         <View style={styles.card}>
             <FastImage
             source={{
