@@ -23,9 +23,9 @@ const NewsCard = (props) => {
             <View style={[styles.bookToggle, index === 0 && {marginTop: 25}]}>
                 <Text style={styles.add}>{isAdded ? "Remove" : "Bookmark now"}</Text>
                 {!isAdded ? (
-                <View style={{height: 20, width: 20, borderWidth: 2, borderRadius: 10, borderColor: 'green', marginBottom: 10,}}/>
+                <View style={{height: 20, width: 20, borderWidth: 2, borderRadius: 10, borderColor: 'green', marginBottom: 10}}/>
                 ) : (
-                    <View style={{height: 20, width: 20, borderRadius: 10, backgroundColor: 'green', marginBottom: 10,}}/>
+                    <View style={{height: 20, width: 20, borderRadius: 10, backgroundColor: 'green', marginBottom: 10}}/>
                 )}
             </View>
         </TouchableOpacity>
